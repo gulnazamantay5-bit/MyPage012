@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гүлназ Амантай | Жеке портфолио</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eef4ff, #f8faff);
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        /* Басты блок */
+        .profile {
+            background: white;
+            border-radius: 25px;
+            padding: 45px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+        }
+
+        .photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6c8cff, #a88cff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 55px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .profile h1 {
+            font-size: 38px;
+            color: #304ffe;
+            margin-bottom: 10px;
+        }
+
+        .profile h2 {
+            font-size: 20px;
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+
+        .profile p {
+            color: #555;
+        }
+
+        /* Бөлімдер */
+        section {
+            background: white;
+            margin-top: 25px;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 7px 25px rgba(0,0,0,0.06);
+        }
+
+        section h2 {
+            color: #304ffe;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .info div {
+            background: #f5f7ff;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        .info strong {
+            color: #304ffe;
+        }
+
+        /* Дағдылар */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #e9edff;
+            color: #304ffe;
+            padding: 10px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* Зерттеу */
+        .research {
+            border-left: 4px solid #304ffe;
+            padding-left: 20px;
+        }
+
+        /* Футер */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+        }
+
+        /* Телефонға бейімдеу */
+        @media (max-width: 700px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .profile h1 {
+                font-size: 30px;
+            }
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Басты ақпарат -->
+    <div class="profile">
+
+        <div class="photo">
+            GA
+        </div>
+
+        <div>
+            <h1>Гүлназ Амантай</h1>
+
+            <h2>Магистрант • Географ • Зерттеуші</h2>
+
+            <p>
+                География саласында білім алып жатқан магистрант.
+                Табиғи ландшафттарды зерттеуге, геоақпараттық
+                технологияларды қолдануға және ғылыми зерттеу жүргізуге қызығушылық танытамын.
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- Мен туралы -->
+    <section>
+
+        <h2>👩‍🎓 Мен туралы</h2>
+
+        <div class="info">
+
+            <div>
+                <strong>Білім деңгейі:</strong><br>
+                Магистратура
+            </div>
+
+            <div>
+                <strong>Мамандығы:</strong><br>
+                География
+            </div>
+
+            <div>
+                <strong>Ғылыми бағыты:</strong><br>
+                Физикалық география және ландшафттану
+            </div>
+
+            <div>
+                <strong>Негізгі қызығушылығым:</strong><br>
+                Ландшафттық зерттеулер және GIS
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Ғылыми зерттеу -->
+    <section>
+
+        <h2>🔬 Ғылыми зерттеу</h2>
+
+        <div class="research">
+
+            <h3>Маңғыстау түбегінің ландшафттық құрылымдық ерекшеліктері</h3>
+
+            <p>
+                Зерттеу жұмысым Маңғыстау түбегінің ландшафттық құрылымын,
+                табиғи жағдайларын және кеңістіктік дифференциациясын зерттеуге арналған.
+                Зерттеу барысында геоақпараттық жүйелер, қашықтан зондтау
+                деректері және физикалық-географиялық талдау әдістері қолданылады.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GIS -->
+    <section>
+
+        <h2>🗺️ Кәсіби дағдылар</h2>
+
+        <div class="skills">
+
+            <span class="skill">ArcGIS</span>
+            <span class="skill">ArcMap</span>
+            <span class="skill">QGIS</span>
+            <span class="skill">Google Earth Engine</span>
+            <span class="skill">GIS</span>
+            <span class="skill">Remote Sensing</span>
+            <span class="skill">NDVI</span>
+            <span class="skill">NDWI</span>
+            <span class="skill">DEM</span>
+            <span class="skill">Landsat</span>
+            <span class="skill">Sentinel-2</span>
+            <span class="skill">SRTM</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Қызығушылықтар -->
+    <section>
+
+        <h2>🌍 Қызығушылықтарым</h2>
+
+        <p>
+            • Ландшафттану және физикалық география<br>
+            • Геоақпараттық жүйелер<br>
+            • Қашықтан зондтау<br>
+            • Табиғи ресурстарды зерттеу<br>
+            • Шөлейттену және геоэкология<br>
+            • Картография<br>
+            • Ғылыми-зерттеу жұмыстары
+        </p>
+
+    </section>
+
+
+    <!-- Мақсат -->
+    <section>
+
+        <h2>🎯 Менің мақсатым</h2>
+
+        <p>
+            Заманауи GIS және қашықтан зондтау технологияларын пайдалана отырып,
+            табиғи ландшафттарды жан-жақты зерттеу және географиялық
+            зерттеулерге заманауи әдістерді енгізу.
+        </p>
+
+    </section>
+
+
+    <footer>
+        © 2026 Гүлназ Амантай | Жеке портфолио
+    </footer>
+
+</div>
+
+</body>
+</html>
